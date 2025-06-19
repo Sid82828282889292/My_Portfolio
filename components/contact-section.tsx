@@ -53,15 +53,15 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@siddhant.dev',
-      href: 'mailto:hello@siddhant.dev',
+      value: 'fabulous.siddhant@gmail.com',
+      href: 'mailto:fabulous.siddhant@gmail.com',
       color: 'text-blue-500'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 74188 61667',
+      href: 'tel:+917418861667',
       color: 'text-green-500'
     },
     {
@@ -88,13 +88,13 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/siddhant-gupta-aa9044320/',
       color: 'hover:text-blue-600'
     },
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      href: '#',
+      href: 'mailto:fabulous.siddhant@gmail.com',
       color: 'hover:text-green-600'
     }
   ];
