@@ -12,10 +12,21 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Siddhant - Data Scientist & Frontend Developer',
-  description: 'Portfolio of Siddhant - Data Scientist, Analytics Expert, and Frontend Developer specializing in React, Next.js, and Machine Learning.',
-  keywords: ['Data Science', 'Frontend Development', 'React', 'Next.js', 'Machine Learning', 'Analytics'],
-  authors: [{ name: 'Siddhant' }],
+  title: "Siddhant's Portfolio",
+  description: 'An amalgamation of Data Science, Machine Learning and Web Development',
+  keywords: ['Data Science', 'Frontend Development', 'React', 'Next.js', 'Machine Learning', 'Data Analytics'],
+  authors: [{ name: 'Siddhant Gupta' }],
+  icons: {
+  icon: "/portfolio-logo.svg",
+  shortcut: "/portfolio-logo.svg",
+  apple: "/portfolio-logo.svg",
+  other: [
+    {
+      rel: "mask-icon",
+      url: "/portfolio-logo.svg",
+    },
+  ],
+},
   openGraph: {
     title: 'Siddhant - Data Scientist & Frontend Developer',
     description: 'Portfolio showcasing data science projects, web applications, and analytics solutions.',
